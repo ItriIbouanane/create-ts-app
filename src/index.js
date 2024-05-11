@@ -7,7 +7,7 @@ import { installDependencies, addDependency } from 'nypm'
 import { relative } from 'pathe'
 import { downloadTemplate } from 'giget'
 
-const templateUrl = 'github:dev-cetus/typescript-nodejs-template#master'
+const templateUrl = 'github:dev-cetus/typescript-nodejs-template#develop'
 
 async function main() {
     consola.info('Welcome to the TypeScript-Node.js project creation assistant!')
